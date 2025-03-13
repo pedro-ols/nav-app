@@ -1,7 +1,7 @@
 {
   "name": "nav-app",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -15,7 +15,8 @@
     "react-native": "0.76.7",
     "react-dom": "18.3.1",
     "react-native-web": "~0.19.13",
-    "@expo/metro-runtime": "~4.0.1"
+    "@expo/metro-runtime": "~4.0.1",
+    "expo-router": "~4.0.18"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"

@@ -5,12 +5,12 @@ export default function Layout() {
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: "#007AFF",
-        tabBarInactiveTintColor: "#8E8E93",
+        tabBarActiveTintColor: "#556B2F",
+        tabBarInactiveTintColor: "#E0E0E0",
         tabBarStyle: {
-          backgroundColor: "#FFFFFF",
-          borderTopWidth: 1,
-          borderTopColor: "#E0E0E0",
+          backgroundColor: "#9ACD32",
+          borderTopWidth: 5,
+          borderTopColor: "#556B2F",
           height: 60,
         },
         tabBarLabelStyle: {
@@ -21,8 +21,10 @@ export default function Layout() {
     >
       <Tabs.Screen
         name="index"
+
         options={{
-          title: "Home",
+          title: "Tela Inicial",
+          backgroundColor: "#556B2F",
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="home" color={color} size={size} />
           ),
@@ -38,11 +40,11 @@ export default function Layout() {
         }}
       />
       <Tabs.Screen
-        name="News"
+        name="news"
         options={{
           title: "Notícias",
           tabBarIcon: ({ color, size }) => (
-            <Ionicons name="newsPaper" color={color} size={size} />
+            <Ionicons name="newspaper-outline" color={color} size={size} />
           ),
         }}
       />

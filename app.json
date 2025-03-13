@@ -23,6 +23,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugin": [
+      "expo-router"
+    ],
+    "plugins": [
+      "expo-router"
+    ]
   }
 }

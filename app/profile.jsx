@@ -1,10 +1,10 @@
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, Image } from "react-native";
 
 export default function Profile() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Meu Perfil</Text>
-      <Text>Personalize esta página como quiser!</Text>
+    <Image source={{ uri: 'https://http2.mlstatic.com/D_NQ_NP_890101-MLU78313935489_082024-O.webp' }} style={styles.image} />
+      <Text style={styles.title}>Seu Perfil</Text>
     </View>
   );
 }
@@ -21,4 +21,11 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     marginBottom: 10,
   },
+  
+  image: {
+    width: 300,
+    height: 300,
+    marginTop: 40,
+    borderRadius: 500,
+},
 });
